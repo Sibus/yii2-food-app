@@ -28,13 +28,17 @@ $config = [
         'db' => $db,
     ],
     'params' => $params,
-    /*
     'controllerMap' => [
-        'fixture' => [ // Fixture generation command line.
-            'class' => 'yii\faker\FixtureController',
+        // 'fixture' => [ // Fixture generation command line.
+        //     'class' => 'yii\faker\FixtureController',
+        // ],
+        'migrate' => [
+            'class' => \yii\console\controllers\MigrateController::class,
+            'migrationNamespaces' => [
+                'sibus\food\migrations',
+            ],
         ],
     ],
-    */
 ];
 
 if (YII_ENV_DEV) {

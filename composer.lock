@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d033dca6937bc6611016a7de41ad7c10",
+    "content-hash": "56912d05f01a1988cea1ad5238669f51",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -367,6 +367,52 @@
                 "source": "https://github.com/ezyang/htmlpurifier/tree/master"
             },
             "time": "2020-06-29T00:56:53+00:00"
+        },
+        {
+            "name": "sibus/yii2-food",
+            "version": "v1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Sibus/yii2-food-module.git",
+                "reference": "5557a267dffc4fedc326cbc271bc921c63af6417"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Sibus/yii2-food-module/zipball/5557a267dffc4fedc326cbc271bc921c63af6417",
+                "reference": "5557a267dffc4fedc326cbc271bc921c63af6417",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4",
+                "yiisoft/yii2": "~2.0.0",
+                "yiisoft/yii2-bootstrap": "^2.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sibus\\food\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "sibus",
+                    "email": "persibus@gmail.com"
+                }
+            ],
+            "description": "Yii2 food module",
+            "keywords": [
+                "extension",
+                "yii2"
+            ],
+            "support": {
+                "issues": "https://github.com/Sibus/yii2-food-module/issues",
+                "source": "https://github.com/Sibus/yii2-food-module/tree/v1.0"
+            },
+            "time": "2021-04-25T09:47:07+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

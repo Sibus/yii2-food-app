@@ -51,6 +51,11 @@ $config = [
         ],
     ],
     'params' => $params,
+    'modules' => [
+        'food' => [
+            'class' => \sibus\food\Module::class,
+        ],
+    ],
 ];
 
 if (YII_ENV_DEV) {
